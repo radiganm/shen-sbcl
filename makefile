@@ -2,7 +2,7 @@
 ## makefile (for shen-sbcl)
 ## Mac Radigan
 
-.PHONY: all fetch build shen
+.PHONY: all fetch build shen install
 .DEFAULT_GOAL := all
 
 all: build
@@ -15,5 +15,8 @@ fetch:
 
 shen:
 	./shen
+
+install: build
+	sudo mkdir -p /usr/local/bin/ && sudo cp ./shen /usr/local/bin/
 
 ## *EOF*
