@@ -3,6 +3,7 @@
 #+TITLE: shen-sbcl
 #+AUTHOR: Copyright (c) 2015, Mark Tarver
 #+HOMEPAGE: http://www.shenlanguage.org
+#+SPDX-License-Identifier: BSD-3-Clause
 
 *This repo is no longer being actively maintained. It has been
 superceded by [[https://github.com/Shen-Language/shen-cl][shen-cl]].*
